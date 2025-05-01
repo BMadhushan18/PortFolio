@@ -2,6 +2,9 @@ import React, { useEffect, useState, useRef } from 'react';
 import Card from '../components/Card';
 import './Home.css';
 import profilePic from '../images/img1.png';
+import skillsPic from '../images/img4.jpg';
+import projectPic from '../images/img5.jpg';
+import qulificationPic from '../images/img7.jpg';
 
 const Home = () => {
   
@@ -109,8 +112,7 @@ const Home = () => {
                 <div className="animated-bar"></div>
               </div>
               <p className="bio">
-                Passionate about creating beautiful, functional, and user-friendly designs.
-                I specialize in web development and interface design that bridges technology and creativity.
+              Hi, I'm Bawantha Madhushan, an undergraduate student at SLIIT Malabe pursuing a BSc (Hons) in Information Technology. I'm passionate about both frontend and backend development, with particular interest in MERN stack, React, Java, and Spring Boot
               </p>
               <div className="cta-buttons">
                 <button className="primary-btn">
@@ -123,14 +125,14 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="scroll-indicator">
+          {/* <div className="scroll-indicator">
             <div className="mouse">
               <div className="wheel"></div>
             </div>
             <div className="arrow-container">
               <span className="arrow"></span>
             </div>
-          </div>
+          </div> */}
         </section>
 
         {/* Portfolio Section */}
@@ -147,7 +149,7 @@ const Home = () => {
               <Card
                 title="Skills & Expertise"
                 // description="Technical capabilities and creative methodologies that drive my development process."
-                image="https://artriva.com/media/k2/items/cache/c889234799e865bbe90cee71f6cd2e53_XL.jpg"
+                image={skillsPic}
                 link="/skills"
                 iconClass="fa-solid fa-code"
               />
@@ -156,7 +158,7 @@ const Home = () => {
               <Card
                 title="Completed and Ongoing Projects"
                 // description="A curated selection of my best work, case studies, and client success stories."
-                image="https://img.freepik.com/free-photo/standard-quality-control-concept-m_23-2150041859.jpg"
+                image={projectPic}
                 link="/projects"
                 iconClass="fa-solid fa-diagram-project"
               />
@@ -165,7 +167,7 @@ const Home = () => {
               <Card
                 title="Qualifications"
                 // description="Educational background, professional certifications, and continuous learning journey."
-                image="https://i.pinimg.com/originals/08/16/eb/0816ebc536f6ced30e394c3f46e36ef5.jpg"
+                image={qulificationPic}
                 link="/qualifications"
                 iconClass="fa-solid fa-graduation-cap"
               />
