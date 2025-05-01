@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+
 import Home from './pages/Home';
 import Skills from './pages/Skills';
 import Projects from './pages/Projects';
@@ -7,10 +7,11 @@ import FirstProject from './pages/FirstProject';        // import
 import SecondProject from './pages/SecondProject';      // import
 import ThirdProject from './pages/ThirdProject';        // import
 import './App.css';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <Router>
+    
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/skills" element={<Skills />} />
@@ -24,7 +25,7 @@ function App() {
       
       
       </Routes>
-    </Router>
+   
   );
 }
 
