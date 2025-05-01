@@ -86,7 +86,7 @@ const Qualifications = () => {
 
           <div className="timeline-item">
             <div className="timeline-dot"></div>
-            <div className="timeline-date">2018 - 2020</div>
+            <div className="timeline-date">2017 - 2020</div>
             <div className="timeline-content">
               <div className="qualification-card horizontal">
                 <div className="logo-wrapper">
@@ -115,113 +115,39 @@ const Qualifications = () => {
               </div>
             </div>
           </div>
-        </div>
-      </div>
 
-      {/* Certifications Timeline Section */}
-      <div className="timeline-section">
-        <h3 className="section-title">Professional Certifications</h3>
-        
-        <div className="timeline">
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2022</div>
-            <div className="timeline-content">
-              <div className="qualification-card">
-                <h4>Google UX Design Certificate</h4>
-                <p className="qualification-institute">Google</p>
-                <p className="qualification-description">
-                  Professional certification focusing on design thinking, user research, 
-                  wireframing, prototyping, and usability testing.
-                </p>
-              </div>
-            </div>
-          </div>
 
           <div className="timeline-item">
             <div className="timeline-dot"></div>
-            <div className="timeline-date">2021</div>
+            <div className="timeline-date">2017</div>
             <div className="timeline-content">
-              <div className="qualification-card">
-                <h4>Certified UI/UX Designer</h4>
-                <p className="qualification-institute">ABC Design Institute</p>
-                <p className="qualification-description">
-                  Comprehensive certification in user interface design, user experience principles, 
-                  and interaction design methodologies.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2021</div>
-            <div className="timeline-content">
-              <div className="qualification-card">
-                <h4>Adobe Creative Suite Certification</h4>
-                <p className="qualification-institute">Adobe</p>
-                <p className="qualification-description">
-                  Mastery of Adobe's creative applications including Photoshop, Illustrator, 
-                  XD, and InDesign for professional design work.
-                </p>
-              </div>
-            </div>
-          </div>
-
-          <div className="timeline-item">
-            <div className="timeline-dot"></div>
-            <div className="timeline-date">2020</div>
-            <div className="timeline-content">
-              <div className="qualification-card">
-                <h4>Front-End Web Developer</h4>
-                <p className="qualification-institute">Udacity</p>
-                <p className="qualification-description">
-                  Nanodegree program covering HTML5, CSS3, JavaScript, React.js, and responsive web design.
-                </p>
+              <div className="qualification-card horizontal">
+                <div className="logo-wrapper">
+                  <div className="logo-spinner">
+                    <div className="logo-container" ref={mahanamaLogoRef}>
+                      <div className="logo-highlight-effect"></div>
+                      <img 
+                        src="https://images.seeklogo.com/logo-png/33/2/mahanama-college-logo-png_seeklogo-338649.png" 
+                        alt="Mahanama College Logo" 
+                        className="institution-logo"
+                      />
+                    </div>
+                  </div>
+                  <div className="logo-reflection"></div>
+                </div>
+                <div className="qualification-content">
+                  <h4>Ordinary Level</h4>
+                  <p className="qualification-institute">Mahanama College</p>
+                  
+                </div>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      {/* Additional Skills Section
-      <div className="skills-section">
-        <h3 className="section-title">Additional Skills</h3>
-        <div className="skills-container">
-          <div className="skill-category">
-            <h4>Programming Languages</h4>
-            <div className="skills-grid">
-              <div className="skill-item">JavaScript</div>
-              <div className="skill-item">TypeScript</div>
-              <div className="skill-item">Python</div>
-              <div className="skill-item">Java</div>
-              <div className="skill-item">C#</div>
-            </div>
-          </div>
-          
-          <div className="skill-category">
-            <h4>Frameworks & Libraries</h4>
-            <div className="skills-grid">
-              <div className="skill-item">React</div>
-              <div className="skill-item">Angular</div>
-              <div className="skill-item">Vue.js</div>
-              <div className="skill-item">Node.js</div>
-              <div className="skill-item">Express</div>
-            </div>
-          </div>
-          
-          <div className="skill-category">
-            <h4>Design Tools</h4>
-            <div className="skills-grid">
-              <div className="skill-item">Figma</div>
-              <div className="skill-item">Adobe XD</div>
-              <div className="skill-item">Photoshop</div>
-              <div className="skill-item">Illustrator</div>
-              <div className="skill-item">Sketch</div>
-            </div>
-          </div>
-        </div>
-      </div> */}
+      
+
     </div>
   );
 };
