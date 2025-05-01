@@ -1,6 +1,7 @@
 import React, { useEffect, useState, useRef } from 'react';
 import Card from '../components/Card';
 import './Home.css';
+import profilePic from '../images/img1.png';
 
 const Home = () => {
   
@@ -93,7 +94,7 @@ const Home = () => {
                 <div className="profile-circle circle-2"></div>
                 <img 
                   className="profile-photo" 
-                  src="https://i.pinimg.com/originals/08/16/eb/0816ebc536f6ced30e394c3f46e36ef5.jpg" 
+                  src={profilePic}
                   alt="Profile" 
                 />
                 <div className="profile-outline"></div>
