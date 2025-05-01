@@ -1,0 +1,30 @@
+.about-section {
+  height: 100vh;
+  background: linear-gradient(135deg, #00ADB5, #393E46);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  color: #fff;
+}
+
+.highlight {
+  color: #FF5722;
+}
+
+.cta-button {
+  margin-top: 20px;
+  padding: 12px 30px;
+  font-size: 18px;
+  border: none;
+  border-radius: 30px;
+  background-color: #FF5722;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #e64a19;
+}
