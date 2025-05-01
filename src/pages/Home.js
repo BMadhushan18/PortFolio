@@ -105,7 +105,7 @@ const Home = () => {
                 <h1>Hello, I'm <span className="highlight">Bawantha Madhushan</span></h1>
               </div>
               <div className="title-wrapper">
-                <h2 className="profession">UI/UX Designer | Web Developer</h2>
+                <h2 className="profession">Web Developer</h2>
                 <div className="animated-bar"></div>
               </div>
               <p className="bio">
