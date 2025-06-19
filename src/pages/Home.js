@@ -106,7 +106,7 @@ const Home = () => {
                 </h1>
               </div>
               <div className="title-wrapper">
-                <h2 className="profession">Web Developer</h2>
+                <h2 className="profession">FullStack Web Developer</h2>
                 <div className="animated-bar" />
               </div>
               <p className="bio">
