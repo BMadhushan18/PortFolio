@@ -110,12 +110,12 @@ const Home = () => {
                 <div className="animated-bar" />
               </div>
               <p className="bio">
-                I am a third-year BSc (Hons) Information Technology
+                {/* I am a third-year BSc (Hons) Information Technology
 student at SLIIT with strong full-stack development
 experience. I have built web applications using React,
 Node.js (Express), Spring Boot and databases such as
 MySQL and MongoDB. I work well in agile teams, write
-clean code, and solve problems with attention to detail.
+clean code, and solve problems with attention to detail. */}
               </p>
               <div className="cta-buttons">
                 <button
