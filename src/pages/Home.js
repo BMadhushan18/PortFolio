@@ -153,7 +153,7 @@ clean code, and solve problems with attention to detail. */}
             </div>
             <div className="card-wrapper" style={{ animationDelay: '0.3s' }}>
               <Card
-                title="Projects (Group)"
+                title="Projects"
                 image={projectPic}
                 link="/projects"
                 iconClass="fa-solid fa-diagram-project"
